@@ -136,12 +136,8 @@ body {
   position: fixed;
   touch-action: none;
 }</style>
-  </head>
-  <body>
-  <div style="text-align: center">
-    <img src="https://oppositebirds.com/images/opposite-birds.png" width="50%" />
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
 <script id="vertexShader" type="x-shader/x-vertex">
     void main() {
         gl_Position = vec4( position, 1.0 );
@@ -299,6 +295,12 @@ body {
       gl_FragColor = vec4(clamp(colour * 20., 0., 1.),1.0);
   }
 </script>
+  </head>
+  <body>
+  <div style="text-align: center">
+    <img src="https://oppositebirds.com/images/opposite-birds.png" width="50%" />
+
+
 
 
 
